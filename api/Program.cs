@@ -5,6 +5,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<HouseDbContext>();
 builder.Services.AddScoped<IHouseRepository, HouseRepository>();
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -15,6 +16,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors(
+    p => p.WithOrigins("http://localhost:3000")
+    .AllowAnyHeader()
+    .AllowAnyMethod());
+    
 app.UseHttpsRedirection();
 
 app.MapGet("/houses", async (IHouseRepository houseRepository) =>
