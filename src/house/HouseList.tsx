@@ -1,7 +1,7 @@
 import useFetchHouses from "../hooks/HouseHooks";
 
 const HouseList = () => {
-    const houses = useFetchHouses();
+    const {data: housesOrError} = useFetchHouses();
 
     return (
         <div>
@@ -21,7 +21,7 @@ const HouseList = () => {
                 </thead>
                 <tbody>
                     {
-                        houses.map((h) =>
+                        housesOrError && housesOrError.map((h) =>
                         (<tr key={h.id} >
                             <td>{h.address}</td>
                             <td>{h.country}</td>
