@@ -8,6 +8,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<HouseDbContext>();
 builder.Services.AddScoped<IHouseRepository, HouseRepository>();
+builder.Services.AddScoped<IBidRepository, BidRepository>();
 builder.Services.AddCors();
 
 var app = builder.Build();

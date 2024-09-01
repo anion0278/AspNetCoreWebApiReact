@@ -4,6 +4,8 @@ public class HouseDbContext : DbContext
 {
     public DbSet<HouseEntity> Houses => Set<HouseEntity>();
 
+    public DbSet<BidEntity> Bids => Set<BidEntity>();
+
     public HouseDbContext(DbContextOptions<HouseDbContext> options): 
         base(options)   {}
 
