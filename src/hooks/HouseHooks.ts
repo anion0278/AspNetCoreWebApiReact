@@ -3,6 +3,7 @@ import config from "../config";
 import { House } from "../types/house";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axios, { AxiosError, AxiosResponse } from "axios";
+import Problem from "../types/Problem";
 
 
 const useFetchHouses = () => {
@@ -28,7 +29,7 @@ const useAddHouse = () => {
 
     const queryClient = useQueryClient();
 
-    return useMutation<AxiosResponse, AxiosError, House>({
+    return useMutation<AxiosResponse, AxiosError<Problem>, House>({
         mutationFn: (h) => axios.post(`${config.baseApiUrl}/houses`, h), 
         onSuccess: () => {
             queryClient.invalidateQueries(
@@ -46,7 +47,7 @@ const useUpdateHouse = () => {
 
     const queryClient = useQueryClient();
 
-    return useMutation<AxiosResponse, AxiosError, House>({
+    return useMutation<AxiosResponse, AxiosError<Problem>, House>({
         mutationFn: (h) => axios.put(`${config.baseApiUrl}/houses`, h), 
         onSuccess: (_, house) => {
             queryClient.invalidateQueries(
