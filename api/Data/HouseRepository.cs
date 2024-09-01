@@ -35,9 +35,10 @@ public class HouseRepository : IHouseRepository
 
     public async Task<List<HouseDto>> GetAll()
     {
-        return await context.Houses
+        var houses = await context.Houses
         .Select(e => new HouseDto(e.Id, e.Address, e.Country, e.Price))
         .ToListAsync();
+        return houses;
     }
 
     public async Task<HouseDetailsDto?> Get(int id)

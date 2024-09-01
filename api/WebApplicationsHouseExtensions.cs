@@ -7,7 +7,7 @@ public static class WebApplicationHouseExtensions
     {
         app.MapGet("/houses", async (IHouseRepository houseRepository) =>
         {
-            await houseRepository.GetAll();
+            return Results.Ok(await houseRepository.GetAll());
         }).Produces<HouseDto[]>(StatusCodes.Status200OK);
 
         app.MapGet("/house/{houseId:int}", async (int houseId, IHouseRepository repository) =>
