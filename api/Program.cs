@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MiniValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,19 +38,26 @@ app.MapGet("/house/{houseId:int}", async (int houseId, IHouseRepository reposito
 
 app.MapPost("/houses", async ([FromBody] HouseDetailsDto dto, IHouseRepository repository) =>
 {
+    if (!MiniValidator.TryValidate(dto, out var errors))
+        return Results.ValidationProblem(errors);
     var newHouse = repository.Add(dto);
     return Results.Created($"/house/{newHouse.Id}", newHouse);
-}).Produces<HouseDetailsDto>(StatusCodes.Status201Created);
+}).Produces<HouseDetailsDto>(StatusCodes.Status201Created)
+.ProducesValidationProblem();
 
 app.MapPut("/houses/", async ([FromBody] HouseDetailsDto dto, IHouseRepository repository) =>
 {
+    if (!MiniValidator.TryValidate(dto, out var errors))
+        return Results.ValidationProblem(errors);
     if (await repository.Get(dto.Id) is null)
     {
         return Results.Problem($"House wit ID {dto.Id} not found", statusCode: 404);
     }
     var updatedHouse = await repository.Update(dto);
     return Results.Ok(dto);
-}).ProducesProblem(404).Produces<HouseDetailsDto>(StatusCodes.Status200OK);
+}).ProducesProblem(404)
+.Produces<HouseDetailsDto>(StatusCodes.Status200OK)
+.ProducesValidationProblem();
 
 app.MapDelete("/houses/{houseId:int}", async (int houseId, IHouseRepository repository) =>
 {
