@@ -26,7 +26,7 @@ app.UseHttpsRedirection();
 app.MapGet("/houses", async (IHouseRepository houseRepository) =>
     await houseRepository.GetAll()).Produces<HouseDto[]>(StatusCodes.Status200OK);
 
-app.MapGet("/houses/{houseId:int}", async (int houseId, IHouseRepository repository) =>
+app.MapGet("/house/{houseId:int}", async (int houseId, IHouseRepository repository) =>
 {
     var house = await repository.Get(houseId);
     if (house is null) return Results.Problem($"Could not find house with ID {houseId}", statusCode: 404);
