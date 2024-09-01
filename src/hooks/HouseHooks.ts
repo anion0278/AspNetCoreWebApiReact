@@ -78,5 +78,4 @@ const useDeleteHouse = () => {
     });
 }
 
-export default useFetchHouses;
-export { useFetchHouse, useAddHouse, useUpdateHouse, useDeleteHouse };
+export { useFetchHouse, useAddHouse, useUpdateHouse, useDeleteHouse, useFetchHouses };
