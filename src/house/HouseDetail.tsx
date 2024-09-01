@@ -1,5 +1,5 @@
-import { useParams } from "react-router-dom";
-import { useFetchHouse } from "../hooks/HouseHooks";
+import { Link, useParams } from "react-router-dom";
+import { useDeleteHouse, useFetchHouse } from "../hooks/HouseHooks";
 import ApiStatus from "../apiStatus";
 import { currencyFormatter } from "../config";
 import defaultImage from "./DefaultPhoto";
@@ -8,6 +8,8 @@ const HouseDetail = () => {
     const { id } = useParams();
     if (!id) throw Error("House ID was not found");
     const houseId = parseInt(id);
+
+    const deleteHouseMutation = useDeleteHouse();
 
     const { data, status, isSuccess } = useFetchHouse(houseId);
     if (!isSuccess) return <ApiStatus status={status} />
@@ -18,6 +20,23 @@ const HouseDetail = () => {
             <div className="col-6">
                 <div className="row">
                     <img className="img-fluid" src={data.photo ? data.photo : defaultImage} alt="House photo" />
+                </div>
+                <div className="row mt-3">
+                    <div className="col-2">
+                        <Link className="btn btn-primary w-100" to={`/house/edit/${data.id}`}>
+                            Edit
+                        </Link>
+                    </div>
+
+                    <div className="col-2">
+                        <button className="btn btn-danger w-100"
+                            onClick={() => {
+                                if (window.confirm("Are you sure?"))
+                                    deleteHouseMutation.mutate(data);
+                            }} >
+                            Delete
+                        </button>
+                    </div>
                 </div>
             </div>
 
