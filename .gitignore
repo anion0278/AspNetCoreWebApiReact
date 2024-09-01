@@ -22,3 +22,17 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+api/bin/Debug/net8.0/api.dll
+api/bin/Debug/net8.0/api.exe
+api/bin/Debug/net8.0/api.pdb
+api/obj/Debug/net8.0/api.AssemblyInfo.cs
+api/obj/Debug/net8.0/api.AssemblyInfoInputs.cache
+api/obj/Debug/net8.0/api.assets.cache
+api/obj/Debug/net8.0/api.csproj.CoreCompileInputs.cache
+api/obj/Debug/net8.0/api.dll
+api/obj/Debug/net8.0/api.GeneratedMSBuildEditorConfig.editorconfig
+api/obj/Debug/net8.0/api.pdb
+api/obj/Debug/net8.0/api.sourcelink.json
+api/obj/Debug/net8.0/apphost.exe
+api/obj/Debug/net8.0/ref/api.dll
+api/obj/Debug/net8.0/refint/api.dll

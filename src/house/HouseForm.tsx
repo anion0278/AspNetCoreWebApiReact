@@ -20,9 +20,7 @@ const HouseForm = ({ house, submitted }: Args) => {
     e: React.ChangeEvent<HTMLInputElement>
   ): Promise<void> => {
     e.preventDefault();
-    e.target.files &&
-      e.target.files[0] &&
-      setHouseState({
+    e.target.files && e.target.files[0] && setHouseState({
         ...houseState,
         photo: await toBase64(e.target.files[0]),
       });
