@@ -1,7 +1,7 @@
 import useFetchHouses from "../hooks/HouseHooks";
 import { currencyFormatter } from "../config";
 import ApiStatus from "../apiStatus";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const HouseList = () => {
     const { data, status, isSuccess } = useFetchHouses();
@@ -37,6 +37,9 @@ const HouseList = () => {
                     }
                 </tbody>
             </table>
+            <Link className="btn btn-primary" to="/house/add">
+                Add
+            </Link>
         </div>
     )
 }
