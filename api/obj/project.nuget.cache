@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R9LJH6hB25E=",
+  "dgSpecHash": "uGL9fxwqg3k=",
   "success": true,
   "projectFilePath": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\api.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\stefan\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\stefan\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\stefan\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\stefan\\.nuget\\packages\\minivalidation\\0.9.1\\minivalidation.0.9.1.nupkg.sha512",
     "C:\\Users\\stefan\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\stefan\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\stefan\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",

@@ -1,7 +1,9 @@
+using System.ComponentModel.DataAnnotations;
+
 public record HouseDetailsDto( 
     int Id, 
-    string? Address, 
-    string? Country, 
+    [property: Required]string? Address, 
+    [property: Required]string? Country, 
     decimal Price, 
     string? Description, 
     string? Photo);
