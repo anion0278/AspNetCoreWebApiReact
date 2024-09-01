@@ -77,8 +77,7 @@ const Bids = ({ house }: Args) => {
                 <div className="col-2">
                     <button
                         className="btn btn-primary"
-                        onClick={() => onBidSubmitClick()}
-                    >
+                        onClick={() => onBidSubmitClick()}>
                         Add
                     </button>
                 </div>

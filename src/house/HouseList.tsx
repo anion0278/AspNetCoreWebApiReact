@@ -17,7 +17,6 @@ const HouseList = () => {
                     Available houses:
                 </h5>
             </div>
-
             <table className="table talble-hover">
                 <thead>
                     <tr>
@@ -42,6 +41,6 @@ const HouseList = () => {
             </Link>
         </div>
     )
-}
+};
 
-export default HouseList
+export default HouseList;

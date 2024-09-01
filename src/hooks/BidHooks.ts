@@ -29,4 +29,4 @@ const useAddBid = (houseId: number) => {
 }
 
 
-export {useFetchBids, useAddBid}
+export {useFetchBids, useAddBid};
