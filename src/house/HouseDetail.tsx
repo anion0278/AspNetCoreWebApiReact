@@ -54,7 +54,9 @@ const HouseDetail = () => {
                 <div className="row">
                     <h5 className="col-12 mt-3">{data.description}</h5>
                 </div>
-                <Bids house={data}/>
+                <div className="row mt-5">
+                    <Bids house={data} />
+                </div>
             </div>
         </div>
     );
