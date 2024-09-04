@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 public interface IBidRepository
 {
     Task<List<BidDto>> Get(int houseId);
+
+    Task<int> GetHighestBidAmountForHouse(int houseId);
+
     Task<BidDto> Add(BidDto bid);
 }
 
@@ -20,6 +23,12 @@ public class BidRepository: IBidRepository
         return await context.Bids.Where(b => b.HouseId == houseId)
             .Select(b => new BidDto(b.Id, b.HouseId, b.Bidder, b.Amount))
             .ToListAsync();
+    }
+
+    public async Task<int> GetHighestBidAmountForHouse(int houseId)
+    {
+        return await context.Bids.Where(b => b.HouseId == houseId)
+            .MaxAsync(b => b.Amount);
     }
 
     public async Task<BidDto> Add(BidDto dto)

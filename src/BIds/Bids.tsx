@@ -4,6 +4,7 @@ import { House } from "../types/house";
 import { Bid } from "../types/bid";
 import ApiStatus from "../apiStatus";
 import { currencyFormatter } from "../config";
+import { ValidationSummary } from "../ValidationSummary";
 
 type Args = {
     house: House;
@@ -30,6 +31,7 @@ const Bids = ({ house }: Args) => {
 
     return (
         <>
+            {addBidMutation.isError && <ValidationSummary error={addBidMutation.error} />}
             <div className="row mt-4">
                 <div className="col-12">
                     <table className="table table-sm">

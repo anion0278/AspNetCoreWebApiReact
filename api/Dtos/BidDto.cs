@@ -4,4 +4,4 @@ public record BidDto(
     int Id, 
     int HouseId, 
     [property: Required]string Bidder, 
-    int Amount);
+    [property: Range(1, int.MaxValue)]int Amount);
