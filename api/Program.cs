@@ -13,6 +13,7 @@ builder.Services.AddCors();
 
 var app = builder.Build();
 
+app.UseStaticFiles();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -29,5 +30,7 @@ app.UseHttpsRedirection();
 
 app.MapHouseEndpoints();
 app.MapBidEndpoints();
+
+app.MapFallbackToFile("index.html");
 
 app.Run();
