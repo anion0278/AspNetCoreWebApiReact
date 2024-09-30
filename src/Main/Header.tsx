@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import logo from './logo.avif'
+import logo from './logo.png'
 
 type Args = {
     subtitle: string

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+99UrzhihaESHJdMqoJeSTW5n2VmRbl7DV3SXgGI46s=",
+  "Hash": "dxPmx/xuB/YI4sYzGdjT/qm6vBp9QfYXqOAo1jFiPu0=",
   "Source": "api",
   "BasePath": "_content/api",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-Cy2-a88c.js",
+      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-Be4SqKZD.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "assets/index-Cy2-a88c.js",
+      "RelativePath": "assets/index-Be4SqKZD.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-Cy2-a88c.js"
+      "OriginalItemSpec": "wwwroot\\assets\\index-Be4SqKZD.js"
     },
     {
       "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-DFLvsCir.css",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-DFLvsCir.css"
     },
     {
-      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\logo-BRI7WrWT.png",
+      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\logo-CR2B0FRC.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "assets/logo-BRI7WrWT.png",
+      "RelativePath": "assets/logo-CR2B0FRC.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\logo-BRI7WrWT.png"
+      "OriginalItemSpec": "wwwroot\\assets\\logo-CR2B0FRC.png"
     },
     {
       "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\house_icon.svg",
