@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useFetchHouse, useUpdateHouse } from "../hooks/HouseHooks";
+import { useFetchHouse, useUpdateHouse } from "../Hooks/HouseHooks";
 import ApiStatus from "../apiStatus";
 import HouseForm from "./HouseForm";
 import { ValidationSummary } from "../ValidationSummary";

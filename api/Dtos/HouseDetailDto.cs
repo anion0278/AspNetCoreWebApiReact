@@ -4,6 +4,6 @@ public record HouseDetailsDto(
     int Id, 
     [property: Required]string? Address, 
     [property: Required]string? Country, 
-    decimal Price, 
+    double Price, 
     string? Description, 
     string? Photo);

@@ -1,5 +1,7 @@
 const config = {
-    baseApiUrl: ""
+    // baseHousesApiUrl: "https://localhost:4000/api/houses"
+    // baseHousesApiUrl: "api/houses"
+    baseHousesApiUrl: "https://realestatelistingexample.azurewebsites.net/api/houses"
 }
 
 const currencyFormatter = Intl.NumberFormat(

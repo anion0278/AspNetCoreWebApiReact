@@ -14,7 +14,8 @@ public class HouseDbContext : DbContext
         var folder = Environment.SpecialFolder.LocalApplicationData;
         var path = Environment.GetFolderPath(folder);
 
-        optionsBuilder.UseSqlite($"Data Source={Path.Join(path, "houses2.db")}");
+        //optionsBuilder.UseSqlite($"Data Source={Path.Join(path, "houses2.db")}");
+        optionsBuilder.UseSqlServer(@"Server=tcp:realestatelistingexample-server.database.windows.net,1433;Initial Catalog=RealEstateListingDatabase;Persist Security Info=False;User ID=realAdmin;Password=pass;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
     }
 

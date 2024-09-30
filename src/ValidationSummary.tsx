@@ -1,5 +1,5 @@
 import { AxiosError } from "axios";
-import Problem from "./types/Problem";
+import Problem from "./Types/Problem";
 
 type Args = {
     error: AxiosError<Problem>;

@@ -1,5 +1,5 @@
-import { useAddHouse } from "../hooks/HouseHooks";
-import { House } from "../types/house";
+import { useAddHouse } from "../Hooks/HouseHooks";
+import { House } from "../Types/house";
 import { ValidationSummary } from "../ValidationSummary";
 import HouseForm from "./HouseForm";
 
