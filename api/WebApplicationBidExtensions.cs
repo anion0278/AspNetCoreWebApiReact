@@ -1,3 +1,4 @@
+using api;
 using Microsoft.AspNetCore.Mvc;
 using MiniValidation;
 
@@ -5,7 +6,7 @@ public static class WebApplicationBidExtensions
 {
     public static void MapBidEndpoints(this WebApplication app)
     {
-        app.MapGet("/house/{houseId:int}/bids", async (int houseId, IBidRepository bidRepository, IHouseRepository houseRepository) =>
+        app.MapGet(Constants.ApiHouseBase + "/{houseId:int}" + Constants.ApiBidSuffix, async (int houseId, IBidRepository bidRepository, IHouseRepository houseRepository) =>
         {
             if (await houseRepository.Get(houseId) is null) return Results.Problem($"House wit ID {houseId} not found", statusCode: 404);
             var bids = await bidRepository.Get(houseId);
@@ -13,7 +14,7 @@ public static class WebApplicationBidExtensions
         }).ProducesProblem(404)
         .Produces<BidDto[]>(StatusCodes.Status200OK);
 
-        app.MapPost("/house/{houseId:int}/bids", async (int houseId, [FromBody] BidDto bid, IBidRepository bidRepository, IHouseRepository houseRepository) =>
+        app.MapPost(Constants.ApiHouseBase + "/{houseId:int}" + Constants.ApiBidSuffix, async (int houseId, [FromBody] BidDto bid, IBidRepository bidRepository, IHouseRepository houseRepository) =>
         {
             if (bid.HouseId != houseId) return Results.Problem($"House with ID {houseId} not found", statusCode: StatusCodes.Status400BadRequest);
 
@@ -28,7 +29,7 @@ public static class WebApplicationBidExtensions
             if (await houseRepository.Get(houseId) is null) return Results.Problem($"House wit ID {houseId} not found", statusCode: 404);
 
             var bidCreated = await bidRepository.Add(bid);
-            return Results.Created($"/house/{bidCreated.HouseId}/bids", bidCreated);
+            return Results.Created(Constants.ApiHouseBase + $"/{bidCreated.HouseId}" + Constants.ApiBidSuffix, bidCreated);
         }).ProducesProblem(404)
         .ProducesProblem(StatusCodes.Status400BadRequest)
         .Produces<BidDto>(StatusCodes.Status200OK);

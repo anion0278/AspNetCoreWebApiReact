@@ -27,8 +27,10 @@ public class BidRepository: IBidRepository
 
     public async Task<int> GetHighestBidAmountForHouse(int houseId)
     {
-        return await context.Bids.Where(b => b.HouseId == houseId)
-            .MaxAsync(b => b.Amount);
+        var result = (await context.Bids
+            .Where(b => b.HouseId == houseId)
+            .MaxAsync(b => (int?)b.Amount)) ?? 0; // handling possibly empty sequence
+        return result;
     }
 
     public async Task<BidDto> Add(BidDto dto)

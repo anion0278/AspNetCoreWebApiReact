@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import toBase64 from "../toBase64";
-import { House } from "../types/house";
+import { House } from "../Types/house";
 import toBase64 from "../toBase64";
 
 type Args = {
@@ -83,7 +83,7 @@ const HouseForm = ({ house, submitted }: Args) => {
         />
       </div>
       <div className="mt-2">
-        <img src={houseState.photo}></img>
+        <img className="img-fluid" src={houseState.photo}></img>
       </div>
       <button className="btn btn-primary mt-2" disabled={!houseState.address && !houseState.country} onClick={onSubmit}>
         Submit

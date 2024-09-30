@@ -1,9 +1,9 @@
 import { Link, useParams } from "react-router-dom";
-import { useDeleteHouse, useFetchHouse } from "../hooks/HouseHooks";
+import { useDeleteHouse, useFetchHouse } from "../Hooks/HouseHooks";
 import ApiStatus from "../apiStatus";
 import { currencyFormatter } from "../config";
 import defaultImage from "./DefaultPhoto";
-import Bids from "../BIds/Bids";
+import Bids from "../Bids/Bids";
 
 const HouseDetail = () => {
     const { id } = useParams();
@@ -24,7 +24,7 @@ const HouseDetail = () => {
                 </div>
                 <div className="row mt-3">
                     <div className="col-2">
-                        <Link className="btn btn-primary w-100" to={`/house/edit/${data.id}`}>
+                        <Link className="btn btn-primary w-100" to={`/houses/edit/${data.id}`}>
                             Edit
                         </Link>
                     </div>

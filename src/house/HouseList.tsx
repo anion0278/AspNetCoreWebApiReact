@@ -1,4 +1,4 @@
-import {useFetchHouses} from "../hooks/HouseHooks";
+import {useFetchHouses} from "../Hooks/HouseHooks";
 import { currencyFormatter } from "../config";
 import ApiStatus from "../apiStatus";
 import { Link, useNavigate } from "react-router-dom";
@@ -27,14 +27,14 @@ const HouseList = () => {
                 </thead>
                 <tbody>
                     {data && data.map((h) =>
-                        (<tr key={h.id} onClick={() => nav(`/house/${h.id}`)}>
+                        (<tr key={h.id} onClick={() => nav(`/houses/${h.id}`)}>
                             <td>{h.address}</td>
                             <td>{h.country}</td>
                             <td>{currencyFormatter.format(h.price)}</td>
                         </tr>))}
                 </tbody>
             </table>
-            <Link className="btn btn-primary" to="/house/add">
+            <Link className="btn btn-primary" to="/houses/add">
                 Add
             </Link>
         </div>

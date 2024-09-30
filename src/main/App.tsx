@@ -1,10 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import HouseList from '../house/HouseList'
+import HouseList from '../House/HouseList'
 import './App.css'
 import Header from './Header'
-import HouseDetail from '../house/HouseDetail'
-import HouseAdd from '../house/HouseAdd'
-import HouseEdit from '../house/HouseEdit'
+import HouseDetail from '../House/HouseDetail'
+import HouseAdd from '../House/HouseAdd'
+import HouseEdit from '../House/HouseEdit'
+
+const NotFound = () => <h1>404 - Page Not Found</h1>;
 
 function App() {
   return (
@@ -13,9 +15,10 @@ function App() {
         <Header subtitle='List of houses on sale' />
         <Routes>
           <Route path="/" element={<HouseList/>}></Route>
-          <Route path="/house/:id" element={<HouseDetail/>}></Route>
-          <Route path="/house/add" element={<HouseAdd/>}></Route>
-          <Route path="/house/edit/:id" element={<HouseEdit/>}></Route>
+          <Route path="/houses/:id" element={<HouseDetail/>}></Route>
+          <Route path="/houses/add" element={<HouseAdd/>}></Route>
+          <Route path="/houses/edit/:id" element={<HouseEdit/>}></Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </BrowserRouter>

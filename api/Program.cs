@@ -9,28 +9,34 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<HouseDbContext>();
 builder.Services.AddScoped<IHouseRepository, HouseRepository>();
 builder.Services.AddScoped<IBidRepository, BidRepository>();
-builder.Services.AddCors();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder => builder
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
 
 var app = builder.Build();
 
-app.UseStaticFiles();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseDeveloperExceptionPage();
 }
 
-app.UseCors(
-    p => p.WithOrigins("http://localhost:3000")
-    .AllowAnyHeader()
-    .AllowAnyMethod());
-
+app.UseCors("AllowAllOrigins");
+app.UseRouting();
+//app.UseDefaultFiles();
+//app.UseStaticFiles();
 app.UseHttpsRedirection();
 
 app.MapHouseEndpoints();
 app.MapBidEndpoints();
 
-app.MapFallbackToFile("index.html");
+//app.MapFallbackToFile("index.html");
 
 app.Run();
