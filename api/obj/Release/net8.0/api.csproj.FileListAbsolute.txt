@@ -164,6 +164,4 @@ C:\Users\stefan\source\repos\webApiReact\reactWeb\api\obj\Release\net8.0\refint\
 C:\Users\stefan\source\repos\webApiReact\reactWeb\api\obj\Release\net8.0\api.pdb
 C:\Users\stefan\source\repos\webApiReact\reactWeb\api\obj\Release\net8.0\api.genruntimeconfig.cache
 C:\Users\stefan\source\repos\webApiReact\reactWeb\api\obj\Release\net8.0\ref\api.dll
-C:\Users\stefan\source\repos\webApiReact\reactWeb\api\bin\Release\net8.0\wwwroot\web.config
-C:\Users\stefan\source\repos\webApiReact\reactWeb\api\bin\Release\net8.0\web.config
 C:\Users\stefan\source\repos\webApiReact\reactWeb\api\bin\Release\net8.0\Microsoft.AspNetCore.SpaServices.Extensions.dll

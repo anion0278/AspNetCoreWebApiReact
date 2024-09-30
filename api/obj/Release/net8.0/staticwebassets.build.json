@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fK2+VgN7vcGWNnJXFTiZBX2GppEsso5t4zA+u8gbY3w=",
+  "Hash": "QhZ8qIzFuKiMYczkvLsqKi/JsiLugy6wtS0XYWQmIs4=",
   "Source": "api",
   "BasePath": "_content/api",
   "Mode": "Default",
@@ -129,25 +129,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\vite.svg"
-    },
-    {
-      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\web.config",
-      "SourceId": "api",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\",
-      "BasePath": "_content/api",
-      "RelativePath": "web.config",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\web.config"
     }
   ]
 }

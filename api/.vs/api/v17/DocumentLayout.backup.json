@@ -19,20 +19,8 @@
       "RelativeMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|c:\\users\\stefan\\source\\repos\\webapireact\\reactweb\\api\\wwwroot\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|solutionrelative:wwwroot\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|c:\\users\\stefan\\source\\repos\\webapireact\\reactweb\\api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|c:\\users\\stefan\\source\\repos\\webapireact\\reactweb\\api\\webapplicationshouseextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|solutionrelative:webapplicationshouseextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|c:\\users\\stefan\\source\\repos\\webapireact\\reactweb\\api\\web.config||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|solutionrelative:web.config||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06952D32-4CDD-472B-B22C-D16A8651E4BF}|api.csproj|c:\\users\\stefan\\source\\repos\\webapireact\\reactweb\\api\\webapplicationbidextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,7 +65,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1370,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,43 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index-D-8dR2Pt.css",
-              "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-D-8dR2Pt.css",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\index-D-8dR2Pt.css",
-              "ToolTip": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-D-8dR2Pt.css",
-              "RelativeToolTip": "wwwroot\\assets\\index-D-8dR2Pt.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-30T07:30:25.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\index.html",
-              "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-30T07:30:22.615Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "web.config",
-              "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\web.config",
-              "RelativeDocumentMoniker": "wwwroot\\web.config",
-              "ToolTip": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\web.config",
-              "RelativeToolTip": "wwwroot\\web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-30T06:29:44.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "WebApplicationsHouseExtensions.cs",
               "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\WebApplicationsHouseExtensions.cs",
               "RelativeDocumentMoniker": "WebApplicationsHouseExtensions.cs",
@@ -137,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "HouseDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\Dtos\\HouseDetailDto.cs",
               "RelativeDocumentMoniker": "Dtos\\HouseDetailDto.cs",
@@ -149,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "HouseDbContext.cs",
               "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\Data\\HouseDbContext.cs",
               "RelativeDocumentMoniker": "Data\\HouseDbContext.cs",
@@ -161,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "BidRepository.cs",
               "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\Data\\BidRepository.cs",
               "RelativeDocumentMoniker": "Data\\BidRepository.cs",
@@ -179,10 +131,34 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T11:19:49.559Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-30T07:30:22.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index-D-8dR2Pt.css",
+              "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-D-8dR2Pt.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\index-D-8dR2Pt.css",
+              "ToolTip": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-D-8dR2Pt.css",
+              "RelativeToolTip": "wwwroot\\assets\\index-D-8dR2Pt.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-30T07:30:25.085Z"
             },
             {
               "$type": "Document",
@@ -198,31 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "web.config",
-              "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\web.config",
-              "RelativeDocumentMoniker": "web.config",
-              "ToolTip": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\web.config",
-              "RelativeToolTip": "web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-29T19:58:59.692Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "web.config",
-              "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\web.config",
-              "RelativeDocumentMoniker": "web.config",
-              "ToolTip": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\web.config",
-              "RelativeToolTip": "web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-29T20:00:26.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "WebApplicationBidExtensions.cs",
               "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\WebApplicationBidExtensions.cs",
               "RelativeDocumentMoniker": "WebApplicationBidExtensions.cs",
@@ -234,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "Constants.cs",
               "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\Constants.cs",
               "RelativeDocumentMoniker": "Constants.cs",
@@ -246,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "HouseEntity.cs",
               "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\Data\\HouseEntity.cs",
               "RelativeDocumentMoniker": "Data\\HouseEntity.cs",
@@ -258,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\stefan\\AppData\\Roaming\\Microsoft\\UserSecrets\\425cc3e1-c043-434f-9533-4f5aac6415dd\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\425cc3e1-c043-434f-9533-4f5aac6415dd\\secrets.json",
@@ -270,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "HouseDto.cs",
               "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\Dtos\\HouseDto.cs",
               "RelativeDocumentMoniker": "Dtos\\HouseDto.cs",
@@ -282,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "libman.json",
               "DocumentMoniker": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\libman.json",
               "RelativeDocumentMoniker": "libman.json",
