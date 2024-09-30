@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import logo from './logo.png'
+import logo from './logo.avif'
 
 type Args = {
     subtitle: string
@@ -8,7 +8,7 @@ type Args = {
 
 const Header = ({subtitle}: Args) => {
     const nav = useNavigate();
-    
+
     return (
         <header className="row mb-4">
             <div className="col-5">

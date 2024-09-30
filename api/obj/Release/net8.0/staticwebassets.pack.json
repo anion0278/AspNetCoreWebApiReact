@@ -1,28 +1,28 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-D-8dR2Pt.css",
-      "PackagePath": "staticwebassets\\assets\\index-D-8dR2Pt.css"
+      "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-Cy2-a88c.js",
+      "PackagePath": "staticwebassets\\assets\\index-Cy2-a88c.js"
     },
     {
-      "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-DF-5jJQg.js",
-      "PackagePath": "staticwebassets\\assets\\index-DF-5jJQg.js"
+      "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-DFLvsCir.css",
+      "PackagePath": "staticwebassets\\assets\\index-DFLvsCir.css"
     },
     {
       "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\logo-BRI7WrWT.png",
       "PackagePath": "staticwebassets\\assets\\logo-BRI7WrWT.png"
     },
     {
-      "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\config.ts",
-      "PackagePath": "staticwebassets\\config.ts"
+      "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\house_icon.svg",
+      "PackagePath": "staticwebassets\\house_icon.svg"
     },
     {
       "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\vite.svg",
-      "PackagePath": "staticwebassets\\vite.svg"
+      "Id": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\web.config",
+      "PackagePath": "staticwebassets\\web.config"
     },
     {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QhZ8qIzFuKiMYczkvLsqKi/JsiLugy6wtS0XYWQmIs4=",
+  "Hash": "NVOFKQ51AHw+P3mjPzK0Ii59in/x9yIoA6KqBLgPgRU=",
   "Source": "api",
   "BasePath": "_content/api",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-D-8dR2Pt.css",
+      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-Cy2-a88c.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "assets/index-D-8dR2Pt.css",
+      "RelativePath": "assets/index-Cy2-a88c.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-D-8dR2Pt.css"
+      "OriginalItemSpec": "wwwroot\\assets\\index-Cy2-a88c.js"
     },
     {
-      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-DF-5jJQg.js",
+      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\index-DFLvsCir.css",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "assets/index-DF-5jJQg.js",
+      "RelativePath": "assets/index-DFLvsCir.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,7 +52,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-DF-5jJQg.js"
+      "OriginalItemSpec": "wwwroot\\assets\\index-DFLvsCir.css"
     },
     {
       "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\assets\\logo-BRI7WrWT.png",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\logo-BRI7WrWT.png"
     },
     {
-      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\config.ts",
+      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\house_icon.svg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "config.ts",
+      "RelativePath": "house_icon.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\config.ts"
+      "OriginalItemSpec": "wwwroot\\house_icon.svg"
     },
     {
       "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\index.html",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\vite.svg",
+      "Identity": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\web.config",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\stefan\\source\\repos\\webApiReact\\reactWeb\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "vite.svg",
+      "RelativePath": "web.config",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\vite.svg"
+      "OriginalItemSpec": "wwwroot\\web.config"
     }
   ]
 }

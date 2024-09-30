@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className='container'>
-        <Header subtitle='List of houses on sale' />
+        <Header subtitle='SG - List of houses on sale' />
         <Routes>
           <Route path="/" element={<HouseList/>}></Route>
           <Route path="/houses/:id" element={<HouseDetail/>}></Route>

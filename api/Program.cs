@@ -32,12 +32,12 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowAllOrigins");
 app.UseRouting();
 //app.UseDefaultFiles();
-//app.UseStaticFiles();
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 
 app.MapHouseEndpoints();
 app.MapBidEndpoints();
 
-//app.MapFallbackToFile("index.html");
+app.MapFallbackToFile("index.html");
 
 app.Run();
